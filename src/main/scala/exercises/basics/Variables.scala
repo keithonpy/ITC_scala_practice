@@ -12,11 +12,16 @@ object Variables{
     // immutable variable
     val name: String = "Keith";
 
+    // lazy variables
+
+
     //print text
     println(name + " is " + age + " years old.");
     println(s"$name is $age years old.")
     println(f"$name%s is $age%d years old.")
     println(raw"Hello \n World")
+
+
 
 
   }

@@ -1,6 +1,6 @@
 package exercises.controls
 
-object for_practice{
+object For_Practice{
   def main(args: Array[String]){
     // 1 to 5
     for (i <-  1 to 5){

@@ -2,7 +2,7 @@ package exercises.controls
 
 import scala.io.StdIn.readInt
 
-object match_practice {
+object Match_Practice {
   def main(args: Array[String]): Unit = {
     // statement
     print("Input a number: ")

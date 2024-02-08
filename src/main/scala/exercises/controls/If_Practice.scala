@@ -1,7 +1,7 @@
 package exercises.controls
 
-object if_practice {
-  def main(arg: Array[String]): Unit = {
+object If_Practice {
+  def main(args: Array[String]): Unit = {
       // statement
       print("Input a number: ")
       val x : Int = scala.io.StdIn.readInt // for string change to readLine
