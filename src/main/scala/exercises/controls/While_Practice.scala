@@ -1,6 +1,6 @@
 package exercises.controls
 
-object while_practice{
+object While_Practice{
   def main (args: Array[String]): Unit = {
       var x = 0;
       // while loop
