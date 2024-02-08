@@ -1,7 +1,7 @@
 package exercises.functions
 
 
-object func {
+object Func {
   // four ways to define functions
   def add(x:Int , y:Int): Int = {
     return x + y
