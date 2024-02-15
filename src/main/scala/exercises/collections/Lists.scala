@@ -4,6 +4,9 @@ object Lists {
   def main(args: Array[String]): Unit = {
     // create a list of integer
     val numbers = List(1, 2, 3, 4, 5)
+    val strList: List[String] = List("Alice", "Bob", "Charlie")
+    // create a lists with NIL
+    println(1::5::9::Nil);
 
     //print the lists
     println(s"List of numbers = $numbers")
@@ -11,6 +14,8 @@ object Lists {
     // access the element
     println(s"First element: " + numbers.head)
     println(s"Last element: " + (numbers.last))
+    println(s"Tail element (drop the first element): " + numbers.tail)
+    println(s"The list is empty? " + numbers.isEmpty)
 
     // add element to a new list
     val updatedNumbers = numbers :+ 6
@@ -35,6 +40,12 @@ object Lists {
     val numbers2 = List(6, 7, 8, 9, 10)
     val concatList = numbers ::: numbers2;
     println(s"Concatenated List = $concatList")
+
+    // Lists operation
+    numbers.foreach(println)
+    var sum = 0;
+    numbers.foreach(sum += _);
+    println(s"The sum of the list is $sum")
   }
 
 }
